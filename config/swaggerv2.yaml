@@ -21,7 +21,7 @@ info:
   termsOfService: 'http://ausftas.github.io/api/#Disclaimer'
   contact:
     url: 'http://ausftas.github.io/api/#Feedback_and_Support'
-host: ftaportal.dfat.gov.au
+host: css-staging.ftaa.nicta.com.au
 basePath: /api/v2/json
 schemes:
     - https
