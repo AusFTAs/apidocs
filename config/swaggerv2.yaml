@@ -17,7 +17,7 @@ info:
     (https://ftaportal.dfat.gov.au/help/first-time) to familiarise yourself with
     these. Please keep principles of YAGNI, KISS, GIGO and DRY in
     mind while interpreting this document.
-  version: v1
+  version: v2
   termsOfService: 'http://ausftas.github.io/api/#Disclaimer'
   contact:
     url: 'http://ausftas.github.io/api/#Feedback_and_Support'
@@ -42,7 +42,7 @@ paths:
     get:
       summary: API Data Version
       description:
-        Returns version of API.
+        Returns version of API data.
         This reflects the latest time anything has been updated. This will be
         greater than or equal to any other versions presented at any time.
         <br /><br />
