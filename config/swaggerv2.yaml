@@ -112,29 +112,6 @@ paths:
           $ref: '#/responses/default'
       tags:
         - search
-  /tariffs/version:
-    get:
-      summary: HS Data Version
-      description:
-        Returns version of HS data. I.e. everything prefixed /tariffs/.
-        This reflects the latest time the data was updated.
-      responses:
-        '200':
-          description: Requested information.
-          schema:
-            type: object
-            properties:
-              results:
-                $ref: '#/definitions/Version'
-              deprecated:
-                $ref: '#/definitions/DeprecatedMessage'
-            required:
-              - results
-        default:
-          $ref: '#/responses/default'
-      tags:
-        - version
-        - tariffs
   /tariffs/hierarchy:
     get:
       summary: HS Hierarchy
